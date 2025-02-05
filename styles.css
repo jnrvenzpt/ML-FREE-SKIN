@@ -1,0 +1,83 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #D7CCC8; /* Light brown background */
+  font-family: 'Poppins', sans-serif;
+  flex-direction: column;
+}
+
+.container {
+  text-align: center;
+  background: #5D4037; /* Dark brown card */
+  padding: 30px;
+  border-radius: 15px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  color: #FFEBEE; /* Light text color */
+}
+
+h1 {
+  font-size: 2.5em;
+  color: #D7CCC8; /* Light brown text */
+  margin-bottom: 20px;
+}
+
+.buttons {
+  margin-top: 20px;
+}
+
+.yes-button, .no-button {
+  font-size: 1.5em;
+  padding: 12px 25px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-weight: bold;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.yes-button {
+  background-color: #8D6E63; /* Medium brown */
+  color: #FFF8E1;
+}
+
+.yes-button:hover {
+  background-color: #A1887F;
+  transform: scale(1.1);
+}
+
+.no-button {
+  background-color: #6D4C41; /* Darker brown */
+  color: #FFEBEE;
+}
+
+.no-button:hover {
+  background-color: #8D6E63;
+  transform: scale(1.1);
+}
+
+.gif_container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  margin-top: 20px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+}
+.intro {
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.intro img {
+    max-width: 100%;
+    max-height: 100%;
+}
